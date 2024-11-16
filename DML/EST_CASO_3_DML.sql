@@ -219,11 +219,11 @@ WHERE MATR_EMPREG = 1006;
 
 # 5 INSERTS NA TABELA ENDEREÇOS
 INSERT INTO ENDERECOS (COD_ENDRC, CEP_ENDRC, RUA_ENDRC, NUM_ENDRC, COMP_ENDRC, LOG_ENDRC, BAIRRO_ENDRC, CID_ENDRC, ESTADO_ENDRC, TIPO_END_ENDRC, FORN_ENDRC, CLIENT_ENDRC, EMPREG_ENDRC) VALUES
-(1, '12345-678', 'Rua A', NULL, 'Apartamento 12', 'Residencial', 'Centro', 'São Paulo', 'SP', 2, 1, 1, 1001),
-(2, '23456-789', 'Rua B', NULL, 'Casa 3', 'Comercial', 'Vila Nova', 'Campinas', 'SP', 1, 2, 2, 1002),
-(3, '34567-890', 'Rua C', NULL, 'Cobertura', 'Residencial', 'Bela Vista', 'Rio de Janeiro', 'RJ', 2, 3, 3, 1003),
-(4, '45678-901', 'Rua D', NULL, 'Loja 1', 'Comercial', 'Jardim das Flores', 'Belo Horizonte', 'MG', 1, 4, 4, 1004),
-(5, '56789-012', 'Rua E', NULL, 'Sala 10', 'Comercial', 'São Judas', 'Curitiba', 'PR', 1, 5, 5, 1005);
+(1, '12345-678', 'Rua A', NULL, 'Apartamento 12', 'Residencial', 'Centro', 'São Paulo', 'SP', 2, NULL, NULL, 1001),
+(2, '23456-789', 'Rua B', NULL, 'Casa 3', 'Comercial', 'Vila Nova', 'Campinas', 'SP', 1, 2, NULL, NULL),
+(3, '34567-890', 'Rua C', NULL, 'Cobertura', 'Residencial', 'Bela Vista', 'Rio de Janeiro', 'RJ', 2, NULL, NULL, 1003),
+(4, '45678-901', 'Rua D', NULL, 'Loja 1', 'Comercial', 'Jardim das Flores', 'Belo Horizonte', 'MG', 1, 4, NULL, NULL),
+(5, '56789-012', 'Rua E', NULL, 'Sala 10', 'Comercial', 'São Judas', 'Curitiba', 'PR', 1, 5, NULL, NULL);
 
 # 2 UPDATES NA TABELA ENDEREÇOS
 UPDATE ENDERECOS
@@ -240,11 +240,11 @@ WHERE COD_ENDRC = 5;
 
 # 5 INSERTS NA TABELA TELEFONES
 INSERT INTO TELEFONES (DDD_TEL, NUM_TEL, FORN_TEL, CLIENT_TEL, EMPREG_TEL, PES_CONT_TEL) VALUES
-('11', '987654321', 1, 1, 1001, 1),
-('21', '998877665', 2, 2, 1002, 2),
-('31', '987123456', 3, 3, 1003, 3),
-('41', '993456789', 4, 4, 1004, 4),
-('51', '998877334', 5, 5, 1005, 5);
+('11', '987654321', 1, NULL, NULL, 1),
+('21', '998877665', 2, NULL, NULL, 2),
+('31', '987123456', 3, NULL, NULL, 3),
+('41', '993456789', 4, NULL, NULL, 4),
+('51', '998877334', 5, NULL, NULL, 5);
 
 # 2 UPDATES NA TABELA TELEFONES
 UPDATE TELEFONES
