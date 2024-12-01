@@ -1,11 +1,11 @@
 # Projeto Fortificar
 
-## Grupo
-Alexandre Miguel
-Geilson Lucas
-Guilherme Campo
-Jesus Fabian
-Nathália Caldonho
+### Grupo
+* Alexandre Miguel
+* Geilson Lucas
+* Guilherme Campo
+* Jesus Fabian
+* Nathália Caldonho
 
 ## Resumo
 
