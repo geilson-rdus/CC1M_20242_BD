@@ -7,6 +7,8 @@ Guilherme Campo
 Jesus Fabian
 Nathália Caldonho
 
+## Resumo
+
 O Projeto Fortificar é uma ação desenvolvida pela empresa Fortes com o objetivo de auxiliar projetos sociais que estejam alinhados aos Objetivos de Desenvolvimento Sustentável (ODS) da alçada da empresa. A solução busca oferecer suporte para gestão, acompanhamento e transparência na execução de iniciativas sociais, promovendo impacto positivo nas comunidades atendidas.  
 
 A solução do grupo envolve interações dos seguintes tipos: Editais abrem oportunidades para inscrição de projetos sociais, com prazos e descrições detalhadas. Os projetos submetidos possuem identificadores únicos, nomes, responsáveis técnicos e coordenadores, além de serem vinculados a editais específicos. Usuários, que podem ser organizações ou indivíduos, interagem com o sistema e são categorizados como donatários ou funcionários da Fortes. As inscrições conectam usuários a projetos, enquanto propostas detalham os pedidos de recursos com valores associados. Relatórios registram o progresso dos projetos, incluindo datas, imagens e textos descritivos, promovendo transparência e eficiência na execução das iniciativas.
